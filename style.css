@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap");
+:root {
+  --main-color: #003666;
+}
+
+html,
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+#menu {
+  height: 80px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  font-size: 30px;
+  line-height: 80px;
+  color: var(--main-color);
+}
+nav a:link {
+  text-decoration: none;
+  margin-right: 25px;
+  color: var(--main-color);
+}
+nav a:hover {
+  border-bottom: 2px solid var(--main-color);
+}
+nav a:visited {
+  text-decoration: none;
+  margin-right: 25px;
+  color: var(--main-color);
+}
+.icon {
+  margin-right: 7px;
+  font-size: 18px;
+}
+#home {
+  background-color: gray;
+  height: 80vh;
+  background-image: url(img/r2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#black {
+  height: 80vh;
+  background-color: black;
+  opacity: 0.5;
+}
+#icerik {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+#hakkimizda {
+  background-color: #f8f9fa;
+  padding: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  height: 100vh;
+}
+h3 {
+  font-size: 55px;
+  color: var(--main-color);
+  text-shadow: 0px 1px 1px black;
+  font-weight: 600;
+}
+.container {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  flex-shrink: 0;
+}
+.solsag {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.solsag-ekip {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#sol {
+  border-right: 3px solid #445c6e;
+  font-size: 30px;
+  color: #445c6e;
+  padding-right: 20px;
+}
+#h5sol {
+  line-height: 1.6;
+  font-size: 22px;
+  font-weight: 600;
+}
+#h5sol,
+#sag {
+  margin: 0;
+  padding: 0;
+}
+span {
+  font-size: 50px;
+  margin-right: 7px;
+  line-height: 42px;
+  color: #003666;
+  font-weight: 600;
+  float: left;
+}
+#sag {
+  color: #999999;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1.8;
+  padding-left: 20px;
+}
+.img-fluid {
+  width: 80%;
+}
+.max-fluid {
+  width: 100%;
+}
+#pson {
+  color: #999;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  margin-top: 50px;
+  font-weight: 100;
+}
+#egitimler {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+  height: 100vh;
+}
+.card {
+  width: 320px;
+  height: 350px;
+  border: 1px solid #ddd;
+  padding: 0;
+  display: inline-block;
+}
+.card:hover {
+  border: 1px solid #888;
+  cursor: pointer;
+}
+.baslikcard {
+  font-size: 15px;
+  color: #003666;
+}
+.pcard {
+  color: #888;
+}
+#ekip {
+  background-color: #003666;
+  padding: 50px;
+  height: 100vh;
+  text-align: center;
+}
+#ekiph3 {
+  color: white;
+}
+.sutun {
+  width: 385px;
+  padding: 0px 50px;
+}
+.sutun-sol-sag {
+  width: 385px;
+  padding: 50px;
+}
+
+.oval {
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, 0 6px 4px black;
+}
+.ekipisim {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+.ekipp {
+  color: #888;
+  font-size: 20px;
+}
+.social {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  width: 50px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.social:hover {
+  background-color: #999;
+}
+#iletisim {
+  background: url(img/iletisim.jpg);
+  background-size: cover;
+  padding: 50px;
+  height: 100vh;
+  text-align: center;
+}
+#h3iletisim {
+  color: white;
+}
+
+#iletisimopak {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  height: 55vh;
+}
+#formgroup {
+  width: 60%;
+  float: left;
+  height: 500px;
+  text-align: left;
+}
+#solform {
+  width: 47%;
+  float: left;
+  padding-right: 5px;
+}
+#sagform {
+  width: 47%;
+  float: right;
+  padding-left: 5px;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"] {
+  cursor: pointer;
+  background-color: #445c6e;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#adres {
+  width: 30%;
+  float: right;
+  padding: 30px;
+  height: 500px;
+  text-align: left;
+}
+#adresbaslik {
+  font-size: 30px;
+  color: white;
+}
+.adresp {
+  color: #ddd;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+#copyright {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+#up {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 15px;
+  padding: 15px;
+  margin: 20px 0;
+  float: right;
+}
